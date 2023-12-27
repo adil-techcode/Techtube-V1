@@ -1,0 +1,44 @@
+
+
+.aboutsection1Svg svg {
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+}
+
+
+
+.aboutsection1About h1 {
+
+    font-family: "Trochut";
+    font-weight: bold;
+}
+
+.aboutsection2pfp img {
+    
+    width: 350px;
+    height: 350px;
+    background-color: var(--primary-color);
+}
+
+
+.SocailWrapper {
+    display: flex;
+  }
+  
+  .SocailWrapper a {
+    margin: 10px 5px;
+    background-color: #454e56;
+    padding: 8px 8px;
+    border-radius: 100px;
+  }
+  
+  .SocailWrapper a:hover {
+    background-color: var(--primary-color);
+  }
+
+
+.footer footer {
+    position: static !important;
+    margin-top: 30px;
+  }

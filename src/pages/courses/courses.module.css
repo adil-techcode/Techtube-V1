@@ -1,0 +1,47 @@
+.playlistDesc {
+  height: 100px;
+  overflow: hidden;
+}
+
+.playlistTitle {
+  height: 50px;
+  overflow: hidden;
+}
+
+.stLearnBtn {
+  width: 100%;
+  background-color: var(--primary-color) !important;
+  border: 1px solid var(--primary-color) !important;
+}
+
+.stLearnBtn:hover {
+  background-color: var(--primary-hover-color) !important;
+}
+
+.seacrhCol {
+  border: 1px solid gray;
+  width: 50%;
+  float: right;
+  padding: 1px;
+  padding-right: 5px;
+  border-radius: 5px;
+}
+
+.seacrhCol input {
+  width: 90%;
+  outline: 0;
+  border: none;
+  padding: 5px;
+}
+
+.seacrhCol svg {
+  font-size: 1.3rem;
+}
+
+/* media-queries */
+@media screen and (max-width: 768px) {
+  .seacrhCol {
+    width: 100%;
+    margin-top: 10px;
+  }
+}

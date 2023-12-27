@@ -1,0 +1,67 @@
+.userBox {
+  height: 200px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    191deg,
+    rgb(30, 23, 168) 0%,
+    rgba(91, 91, 215, 1) 23%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.coursesBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 200px;
+  background: rgb(36, 0, 30);
+  background: linear-gradient(
+    191deg,
+    rgba(93, 11, 79, 0.659) 0%,
+    rgba(255, 0, 245, 1) 86%,
+    rgba(209, 91, 215, 1) 100%
+  );
+  color: white;
+}
+
+.userBox span {
+  background-color: #00ccff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.courseIcon {
+  background-color: #f905ef;
+  padding: 14px 10px;
+  border-radius: 5px;
+}
+
+.addCourseIcon {
+  background-color: #ff0cf3;
+  padding: 12px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 1.4rem;
+}
+
+.modalBody {
+  text-align: center;
+}
+
+.modalBody input[type="text"] {
+  width: 100%;
+  padding: 5px 10px;
+  margin: 2px 0px;
+  background-color: #d3d2d2;
+  outline: 0;
+  border: 0px;
+  height: 60px;
+  border-radius: 8px;
+}

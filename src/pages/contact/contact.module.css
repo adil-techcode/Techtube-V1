@@ -1,0 +1,66 @@
+.contactWrapper {
+  width: 60%;
+}
+
+.contactWrapper h1 {
+  font-family: "Trochut";
+  font-weight: bold;
+  text-align: center;
+}
+
+.SocailWrapper {
+  display: flex;
+}
+
+.SocailWrapper a {
+  margin: 10px 5px;
+  background-color: #454e56;
+  padding: 8px 8px;
+  border-radius: 100px;
+}
+
+.SocailWrapper a:hover {
+  background-color: var(--primary-color);
+}
+
+.ContactForm input[type="text"],
+.ContactForm input[type="email"] {
+  width: 100%;
+  padding: 5px 10px;
+  margin: 10px 0px;
+  background-color: #d3d2d2;
+  outline: 0;
+  border: 0px;
+  height: 60px;
+  border-radius: 8px;
+}
+
+.ContactForm input[type="submit"] {
+  padding: 8px 8px;
+  border: 0px;
+  border-radius: 8px;
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.ContactForm textarea {
+  width: 100%;
+  padding: 5px 10px;
+  margin: 10px 0px;
+  background-color: #d3d2d2;
+  outline: 0;
+  border: 0px;
+  border-radius: 8px;
+}
+
+.footer footer {
+    position: static !important;
+    margin-top: 30px;
+  }
+
+/* media-queries */
+@media screen and (max-width: 768px) {
+  .contactWrapper {
+    width: 100%;
+  }
+}

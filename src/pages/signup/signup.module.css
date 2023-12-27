@@ -1,0 +1,88 @@
+.container {
+  height: 100vh;
+}
+
+/* col 1 */
+
+.carouselPanel {
+  background: linear-gradient(to right, #2eb62c, #57c84d);
+}
+
+.carouselImg {
+  width: 500px;
+  height: 500px;
+}
+
+/* col 2 */
+
+.formWrapper {
+  width: 60%;
+}
+
+.alertbox {
+  animation: alertAnimation 0.5s ease-out;
+  width: 400px;
+  margin: 2px auto;
+}
+
+.formWrapper h1 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.inputfield {
+  width: 100%;
+  padding: 5px 10px;
+  margin: 2px 0px;
+  background-color: #d3d2d2;
+  outline: 0;
+  border: 0px;
+  height: 60px;
+  border-radius: 8px;
+}
+
+.errorfield {
+  border: 2px solid red !important;
+  outline: 0;
+}
+
+.submitBtn {
+  width: 100%;
+  padding: 5px 10px;
+  margin: 10px 0px;
+  background-color: #d3d2d2;
+  outline: 0;
+  border: 0px;
+  height: 60px;
+  border-radius: 8px;
+  color: white;
+  background-color: var(--primary-color);
+}
+
+.submitBtn:hover {
+  background-color: #2eb62c;
+}
+
+/* Animations */
+
+@keyframes alertAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+  .formWrapper {
+    width: 90%;
+  }
+}

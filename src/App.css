@@ -1,0 +1,20 @@
+:root {
+  --primary-color  : #57c84d;
+  --primary-hover-color  : #2eb62c;
+}
+
+
+.active {
+  color: #57c84d  !important;
+  border-bottom: 1px solid var(--primary-color);
+}
+
+.nav-link  a{
+  color: black ;
+}
+
+
+
+
+
+

@@ -1,0 +1,54 @@
+.container {
+  height: 100vh;
+}
+
+.navbarBox nav {
+  background-color: white !important;
+}
+
+.iframeBox {
+  width: 66%;
+  height: 85%;
+  position: fixed;
+  padding: 0 !important;
+  top: 78px;
+  pointer-events: auto;
+  z-index: 1000;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.playlistItems {
+  margin-top: 78px !important;
+  border: 1px solid gray;
+  border-radius: 10px;
+  width: 90%;
+  text-align: center;
+  margin: 0px auto;
+  padding: 5px 10px;
+}
+
+.playlistItems div {
+  border-top: 1px solid gray;
+  padding: 10px 0px;
+  cursor: pointer;
+}
+
+.playlistItems div:hover {
+  background-color: #f8f9fa;
+  color: rgb(29, 5, 5);
+}
+
+/* media-queries */
+@media screen and (max-width: 768px) {
+  .iframeBox {
+    width: 100%;
+    margin-bottom: 300px;
+    position: static;
+    margin-top: 78px;
+  }
+}
