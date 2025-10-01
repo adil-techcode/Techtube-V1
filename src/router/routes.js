@@ -77,7 +77,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/courses",
-    element: <ProtectedRoute element={Courses} />,
+    element: <AuthRoute element={Courses} />,
   },
   {
     path: "/admin",
@@ -85,7 +85,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/playlist/:id",
-    element: <ProtectedRoute element={Ytvideo} />,
+    element: <AuthRoute element={Ytvideo} />,
   },
   {
     path: "/forbiddenpage",
